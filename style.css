@@ -101,7 +101,8 @@ fieldset legend{
     
 }
 
-.input-wrapper label{
+.input-wrapper label,
+.checkbox-wrapper label{
 
     font-weight: 400;
     font-size: 14px;
@@ -165,3 +166,9 @@ fieldset legend{
 .col-3 div:nth-child(1){
     width:100%
 }
+
+.checkbox-wrapper{
+    display: flex;
+    align-items: center;
+}
+
