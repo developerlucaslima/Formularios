@@ -171,4 +171,6 @@ fieldset legend{
     display: flex;
     align-items: center;
 }
-
+.checkbox-wrapper input{
+    display:none;
+}
